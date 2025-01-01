@@ -1,92 +1,118 @@
-<DocType html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Aasaithambi - DevOps Projects Repo</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(to right, #2C3E50, #3498DB);
+            color: #fff;
+            margin: 0;
+            padding: 0;
+        }
 
-<html>
-    <head>
-        <title>Learn DevOps from Basics</title>
-        <style>
-            body {
-                margin: 0;
-                padding: 0;
+        header {
+            display: flex;
+            justify-content: center;
+            background-color: #1A252F;
+            padding: 15px 0;
+        }
+
+        nav a {
+            margin: 0 15px;
+            color: #00FFAB;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #FFD700;
+        }
+
+        h2 {
+            text-align: center;
+            margin-top: 30px;
+            font-size: 36px;
+            font-weight: bold;
+            color: #f0f0f0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        p {
+            font-size: 20px;
+            line-height: 1.8;
+            text-align: justify;
+        }
+
+        .project-section {
+            margin-top: 40px;
+            text-align: center;
+        }
+
+        a {
+            color: #00FFAB;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:hover {
+            color: #FFD700;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 30px;
+            padding: 10px;
+            background-color: #1A252F;
+            color: #fff;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        @media (max-width: 768px) {
+            h2 {
+                font-size: 28px;
             }
 
-            header {
-                background-color: #333;
-                color: #fff;
-                padding: 10px 0;
-                text-align: center;
+            p {
+                font-size: 18px;
             }
+        }
+    </style>
+</head>
+<body>
 
-            nav ul {
-                list-style-type: none;
-                padding: 0;
-            }
+    <!-- Navigation Section -->
+    <header>
+        <nav>
+            <a href="home">Home</a>
+            <a href="projects">DevOps Projects Repo</a>
+        </nav>
+    </header>
 
-            nav ul li {
-                display: inline;
-                margin-right: 10px;
-            }
+    <!-- Projects Section -->
+    <h2>Project Repo</h2>
+    <div class="container">
+        <div class="project-section">
+            <p>DevOps projects on my GitHub:</p>
+            <a href="https://github.com/AASAITHAMBI573/go-web-app.git" target="_blank">GitHub Repository: Advanced DevOps Project</a>
+        </div>
+    </div>
 
-            nav ul li a {
-                color: #fff;
-                text-decoration: none;
-            }
+    <footer>
+        <p>&copy; 2024 Aasaithambi | Cloud & DevOps Specialist</p>
+    </footer>
 
-            main {
-                padding: 20px;
-            }
-
-            section {
-                margin-bottom: 20px;
-            }
-
-            footer {
-                background-color: #333;
-                color: #fff;
-                text-align: center;
-                padding: 10px 0;
-                position: fixed;
-                bottom: 0;
-                width: 100%;
-            }
-        </style>
-    </head>
-    <body>
-        <header>
-            <nav>
-                <ul>
-                    <li><a href="home">Home</a></li>
-                    <li><a href="about">About</a></li>
-                    <li><a href="contact">Contact</a></li>
-                    <li><a href="courses">Courses</a></li>
-                </ul>
-            </nav>
-        </header>
-
-        <main>
-            <section>
-                <h1>Learn DevOps from Basics</h1>
-                <p>DevOps is a set of practices that combines software development (Dev) and IT operations (Ops)</p>
-                <p>It aims to shorten the systems development life cycle and provide continuous delivery with high software quality. DevOps is complementary with Agile software development; several DevOps aspects came from Agile methodology</p>    
-
-                <h2>Main Tutorials</h2>
-                <p><a href="https://www.youtube.com/playlist?list=PLdpzxOOAlwvIKMhk8WhzN1pYoJ1YU8Csa">DevOps Zero to Hero</a></p>
-                <p><a href="https://www.youtube.com/playlist?list=PLdpzxOOAlwvLNOxX0RfndiYSt1Le9azze">AWS Zero to Hero</a></p>
-                <p><a href="https://www.youtube.com/playlist?list=PLdpzxOOAlwvIcxgCUyBHVOcWs0Krjx9xR">Azure Zero to Hero</a></p>
-                <p><a href="https://www.youtube.com/playlist?list=PLdpzxOOAlwvI0O4PeKVV1-yJoX2AqIWuf">Terraform Zero to Hero</a></p>
-                <p><a href="https://www.youtube.com/playlist?list=PLdpzxOOAlwvKwTyYNJCUwGPvql0TrsPgv">Python Zero to Hero</a></p>
-
-                <h2>Additional Tutorials</h2>
-                <p><a href="https://www.youtube.com/playlist?list=PLdpzxOOAlwvKv4MFW35XRskZbQbrt6ep-">Networking Fundamentals</a></p>
-                <p><a href="https://www.youtube.com/playlist?list=PLdpzxOOAlwvLxd5nmtmORCmhD5jkrNbuE">Ansible Zero to Hero</a></p>
-                <p><a href="https://www.youtube.com/playlist?list=PLdpzxOOAlwvKu7OZpgj1-MzJFqZ8RBp6f">GitOps Zero to Hero</a></p>
-
-                <h2>Troubleshooting Tutorials</h2>
-                <p><a href="https://www.youtube.com/playlist?list=PLdpzxOOAlwvIrFBI1farpLS_OSUBXJMLX">Troubleshooting Kubernetes</a></p>
-            </section>
-        </main>
-
-        <footer>
-            <p>&copy; Abhishek.Veeramalla</p>
-        </footer>
-    </body>
+</body>
 </html>
