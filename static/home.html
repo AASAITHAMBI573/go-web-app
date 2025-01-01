@@ -2,90 +2,110 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Aasaithambi - Cloud & DevOps Specialist</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(to right, #2C3E50, #3498DB);
+            color: #fff;
             margin: 0;
             padding: 0;
         }
 
         header {
-            background-color: #333;
-            color: #fff;
-            padding: 10px 0;
-            text-align: center;
+            display: flex;
+            justify-content: center;
+            background-color: #1A252F;
+            padding: 15px 0;
         }
 
-        nav ul {
-            list-style-type: none;
-            padding: 0;
-        }
-
-        nav ul li {
-            display: inline;
-            margin-right: 10px;
-        }
-
-        nav ul li a {
-            color: #fff;
+        nav a {
+            margin: 0 15px;
+            color: #00FFAB;
             text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
         }
 
-        main {
+        nav a:hover {
+            color: #FFD700;
+        }
+
+        h1 {
+            text-align: center;
+            margin-top: 50px;
+            font-size: 48px;
+            font-weight: bold;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
             padding: 20px;
         }
 
-        section {
-            margin-bottom: 20px;
+        p {
+            font-size: 20px;
+            line-height: 1.8;
+            text-align: justify;
+        }
+
+        .content-box {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
         }
 
         footer {
-            background-color: #333;
-            color: #fff;
             text-align: center;
-            padding: 10px 0;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
+            margin-top: 30px;
+            padding: 10px;
+            background-color: #1A252F;
+            color: #fff;
         }
-    </style>    
+
+        footer p {
+            margin: 0;
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 36px;
+            }
+
+            p {
+                font-size: 18px;
+            }
+        }
+    </style>
 </head>
 <body>
+
+    <!-- Navigation Section -->
     <header>
         <nav>
-            <ul>
-                <li><a href="home">Home</a></li>
-                <li><a href="about">About</a></li>
-                <li><a href="contact">Contact</a></li>
-                <li><a href="courses">Courses</a></li>
-            </ul>
+            <a href="home">Home</a>
+            <a href="projects">DevOps Project Repo</a>
         </nav>
     </header>
 
-    <main>
-        <section>
-            <h1>Learn DevOps from Basics</h1>
-            <p>The main purpose of this website is to guide people on how to learn DevOps 
-                from basics for Free. We will provide you with the best resources to learn.
-            </p>
-        </section>
+    <!-- Main Content: Home Section -->
+    <h1>Aasaithambi</h1>
+    <div class="container">
+        <div class="content-box">
+            <p>HAPPY NEW YEAR 2025</p>
 
-        <section>
-            <h2>Overview</h2>
-            <p> Zero to Hero courses on all DevOps tools and popular Cloud(AWS and Azure) platform</p>
-        </section>
+            <p>THANK YOU ALL</p>
 
-        <section>
-            <h2>Courses Offered</h2>
-            <p>Please look at the <a href="courses">courses</a> section.</p>  
-        </section>
-    </main>
+            
+    </div>
 
     <footer>
-        <p>&copy; Aasaithambi</p>
+        <p>&copy; 2025 Aasaithambi | Cloud & DevOps Specialist</p>
     </footer>
+
 </body>
 </html>
